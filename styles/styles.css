@@ -1,0 +1,146 @@
+p {
+    color: aquamarine;
+    font-family: courier;
+    font-size: 100%;
+    /* border: 2px solid powderblue;
+    padding: 30px; 
+    margin: 50px;*/
+}
+address {
+    border: 2px solid azure;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0px;
+  }
+th {
+    border: 1px solid #0ddddd;
+    text-align: center;
+    padding: 8px;
+  }
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-style: dashed;
+}
+tr:nth-child(even) {
+    background-color: darkblue;
+}
+tr:hover {
+  background-color: darkgoldenrod;
+}
+
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.ul1 {
+  float: left;
+}
+.ul1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.ul1 a:hover {
+  background-color: #111111;
+}
+
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.city2 {
+  text-align: center;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
