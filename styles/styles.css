@@ -1,3 +1,14 @@
+xyz_useful {
+  text-transform: uppercase;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: justify;
+  letter-spacing: 5px;
+  white-space: nowrap;
+}
+body {
+  background-color: #132931;
+}
 p {
     color: aquamarine;
     font-family: courier;
@@ -8,6 +19,8 @@ p {
 }
 address {
     border: 2px solid azure;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 a:link {
     color: green;
@@ -34,14 +47,14 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  border-spacing: 0px;
+  border-spacing: 10px;
   }
 th {
     border: 1px solid #0ddddd;
     text-align: center;
     padding: 8px;
   }
-td{
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -60,8 +73,6 @@ tr:hover {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-}
-.ul1 {
   float: left;
 }
 .ul1 a {
@@ -75,6 +86,7 @@ tr:hover {
 .ul1 a:hover {
   background-color: #111111;
 }
+
 
 .city {
   background-color: tomato;
@@ -122,6 +134,9 @@ section::after {
   content: "";
   display: table;
   clear: both;
+}
+.clearfix {
+  overflow: auto;
 }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
